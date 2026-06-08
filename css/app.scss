@@ -17,6 +17,16 @@ $primary: red!important;
     font-family: 'taylorbold';
 }
 
+.mobile-adjust {
+    @media(max-width:992px) {
+        flex-direction: column; 
+        text-align: center;
+        select{
+            text-align: center;
+        }
+    }
+}
+
 .bg-primary {
     background: $primary;
 }

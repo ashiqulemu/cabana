@@ -12,6 +12,16 @@
   src: url("../fonts/TaylorBold.woff") format("woff");
   font-family: "taylorbold";
 }
+@media (max-width: 992px) {
+  .mobile-adjust {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mobile-adjust select {
+    text-align: center;
+  }
+}
+
 .bg-primary {
   background: red !important;
 }
