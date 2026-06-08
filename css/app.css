@@ -39,7 +39,7 @@ body {
 @media (max-width: 992px) {
   .header-main .navbar-collapse {
     background: #8b1313;
-    padding: 0 15px;
+    padding: 15px;
   }
   .header-main .navbar-collapse .nav-link {
     text-align: left !important;
