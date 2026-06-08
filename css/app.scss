@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+$primary: red!important;
+
+@font-face {
+    src: url('../fonts/TaylorLight.woff') format('woff');
+    font-family: 'taylor';
+}
+
+@font-face {
+    src: url('../fonts/TaylorBold.woff') format('woff');
+    font-family: 'taylorbold';
+}
+
+.bg-primary {
+    background: $primary;
+}
+
+
+body {
+    font-family: 'taylor' !important;
+
+}
+
+.header-main {
+    background: $primary;
+
+    .navbar-toggler{
+        background: #fff;
+    }
+
+    .navbar-collapse{
+       @media(max-width:992px) {
+            background: #8b1313;
+            padding:0 15px ;
+           .nav-link{
+            text-align: left !important;
+
+           }
+        }
+    }
+
+    .brand {
+        max-width: 160px;
+
+        @media(max-width:992px) {
+            display: none;
+        }
+    }
+
+    .navbar-brand {
+        max-width: 190px;
+        visibility: hidden;
+
+        @media(max-width:992px) {
+            visibility: visible;
+        }
+    }
+
+    .nav-custom {
+
+        column-gap: 40px;
+
+        @media(max-width:1024px) {
+            column-gap: 5px;
+        }
+
+
+        li {
+            .nav-link {
+                color: #fff !important;
+                font-size: 20px;
+                text-align: center;
+                padding: 8px 15px;
+                &:hover{
+                    background:  #fff;
+                    color: $primary;
+                    border-radius: 5px;
+                }
+
+                 
+            }
+        }
+
+    }
+}
