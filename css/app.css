@@ -96,10 +96,10 @@ body {
   text-align: center;
   padding: 8px 15px;
   font-family: "taylorbold";
+  border-radius: 8px;
 }
 .header-main .nav-custom li .nav-link:hover {
   background: #fff;
   color: red !important;
-  border-radius: 5px;
   font-weight: bold;
 }/*# sourceMappingURL=app.css.map */
