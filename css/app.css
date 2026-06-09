@@ -30,8 +30,23 @@ body {
   font-family: "taylor" !important;
 }
 
+.page-title {
+  margin-top: 125px;
+}
+@media (max-width: 992px) {
+  .page-title {
+    margin-top: 10px;
+  }
+}
+
 .header-main {
   background: red !important;
+  padding: 40px 0;
+}
+@media (max-width: 992px) {
+  .header-main {
+    padding: 15px 0;
+  }
 }
 .header-main .navbar-toggler {
   background: #fff;
@@ -46,7 +61,10 @@ body {
   }
 }
 .header-main .brand {
-  max-width: 160px;
+  max-width: 300px;
+  position: absolute;
+  left: -141px;
+  top: -69px;
 }
 @media (max-width: 992px) {
   .header-main .brand {
@@ -55,11 +73,11 @@ body {
 }
 .header-main .navbar-brand {
   max-width: 190px;
-  visibility: hidden;
+  display: none;
 }
 @media (max-width: 992px) {
   .header-main .navbar-brand {
-    visibility: visible;
+    display: block;
   }
 }
 .header-main .nav-custom {
@@ -74,7 +92,7 @@ body {
 }
 .header-main .nav-custom li .nav-link {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   padding: 8px 15px;
 }
@@ -82,4 +100,5 @@ body {
   background: #fff;
   color: red !important;
   border-radius: 5px;
+  font-weight: bold;
 }/*# sourceMappingURL=app.css.map */
