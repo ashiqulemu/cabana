@@ -95,6 +95,7 @@ body {
   font-size: 24px;
   text-align: center;
   padding: 8px 15px;
+  font-family: "taylorbold";
 }
 .header-main .nav-custom li .nav-link:hover {
   background: #fff;
